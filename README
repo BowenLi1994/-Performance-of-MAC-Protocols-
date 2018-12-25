@@ -1,0 +1,14 @@
+This is the project 2 for the Data comm class. We have two programs for this project: traffic_geneorator and simulator.
+
+1. Type "make" to compile the file
+
+2. For traffic_generator program, it will generator the test cases:
+
+   Run syntax is as following:
+
+       ./traffic_generator num_node pkt_size offered_load num_pkts_per_node [seed]
+
+3. For simulator, we implemented three simulators: ALOHA, SLOTTED_ALOHA, CSMA_1 method.
+   ./simulator aloha: to run the aloha method
+   ./simulator slotted_aloha: to run the slotted_aloha
+   ./simulator csma_1: to run the csma_1 method
